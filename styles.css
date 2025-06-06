@@ -59,7 +59,7 @@ header nav a {
 
 .hero-image {
   flex: 1;
-  max-height: max-content;
+  max-height: 200px;
   text-align: center;
 }
 
