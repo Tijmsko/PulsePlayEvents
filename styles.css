@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6b5cff;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+header .logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+header nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #6b5cff;
+  color: white;
+  padding: 2rem;
+  align-items: center;
+}
+
+.hero-text {
+  flex: 1;
+  padding: 1rem;
+}
+
+.hero-text h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+}
+
+.hero-text button {
+  background-color: white;
+  color: #6b5cff;
+  border: none;
+  padding: 1.5rem 3rem;
+  cursor: pointer;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.hero-image {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-image h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f0f0f0;
+  padding: 2rem;
+  align-items: center;
+}
+
+.section-image, .section-text {
+  flex: 1;
+  padding: 1rem;
+}
+
+.section-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.section-text button {
+  background-color: #6b5cff;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.social {
+  background-color: #444;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+.social h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.social-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.social-gallery img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.social a {
+  background-color: #6b5cff;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  border-radius: 25px;
+  font-weight: bold;;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+footer .footer-left h3 {
+  margin: 0;
+}
+
+footer .footer-right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+footer .footer-right div {
+  min-width: 200px;
+}
+
+.hero {
+  align-items: stretch;
+}
+
+.hero-image img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.section-image {
+  max-width: 50%;
+  overflow: hidden;
+}
+
+.section-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
