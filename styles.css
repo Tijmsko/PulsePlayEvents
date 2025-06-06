@@ -165,11 +165,6 @@ footer .footer-right div {
   align-items: stretch;
 }
 
-.hero-image img {
-  height: 100%;
-  object-fit: cover;
-}
-
 .section-image {
   max-width: 50%;
   overflow: hidden;
