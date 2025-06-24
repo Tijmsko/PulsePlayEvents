@@ -85,6 +85,10 @@ header nav a {
   padding: 1rem;
 }
 
+p.bold {
+  font-weight: bold;
+}
+
 .section-text h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
