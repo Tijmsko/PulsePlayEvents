@@ -47,6 +47,11 @@ header nav a {
   font-size: 1.2rem;
 }
 
+.hero-text p.bold {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 .hero-text button {
   background-color: white;
   color: #6b5cff;
@@ -83,10 +88,6 @@ header nav a {
 .section-image, .section-text {
   flex: 1;
   padding: 1rem;
-}
-
-p.bold {
-  font-weight: bold;
 }
 
 .section-text h2 {
